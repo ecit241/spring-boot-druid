@@ -7,7 +7,10 @@
     <groupId>com.isnow</groupId>
     <artifactId>spring-boot-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <modules>
+        <module>demo</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <!--创建统一的parent,一般在parent里封装了项目的一些基本属性-->
     <parent>
@@ -41,29 +44,6 @@
     </pluginRepositories>
 
 
-    <!--依赖项-->
-    <dependencies>
-        <!--全栈web-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <!--测试-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-    <!--创建可执行jar-->
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 
 </project>

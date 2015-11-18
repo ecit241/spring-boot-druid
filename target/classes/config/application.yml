@@ -7,3 +7,9 @@ spring:
           username: root
           password: 123456
           driverClassNme: com.mysql.jdbc.Driver
+
+
+
+
+#配置日志级别
+logging.level.org.springframework.web: DEBUG
