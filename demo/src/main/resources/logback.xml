@@ -50,10 +50,10 @@ spring boot的默认是logback
   <!--  <logger name="space.isnow.example.springBoot" level="DEBUG" />-->
 
 
-    <root level="INFO">
+   <!-- <root level="INFO">
         <appender-ref ref="console" />
         <appender-ref ref="rollingFile" />
-    </root>
+    </root>-->
 
     <!-- 下面配置一些第三方包的日志过滤级别，用于避免刷屏 -->
     <!-- <logger name="org.springframework" level="WARN"/>

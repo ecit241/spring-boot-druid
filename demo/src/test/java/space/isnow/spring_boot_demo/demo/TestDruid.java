@@ -26,7 +26,7 @@ public class TestDruid {
 
     @Test
     public void Test1(){
-        List<User> user = userMapper.findUserInfo();
+        List<User> user = userMapper.getAllUser();
         logger.info(user.get(0).toString());
     }
 }

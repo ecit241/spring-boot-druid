@@ -9,5 +9,14 @@ import java.util.List;
  * Created by zl on 2015/8/27.
  */
 public interface UserMapper {
-    public List<User> findUserInfo();
+
+    public User getUserById(long id);
+
+    public void saveUser(User user);
+
+    public void updateUserById(User user);
+
+    public void deleteUserById(long id);
+
+    public List<User> getAllUser();
 }

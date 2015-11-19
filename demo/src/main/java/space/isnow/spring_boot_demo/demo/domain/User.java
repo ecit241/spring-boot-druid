@@ -4,15 +4,16 @@ package space.isnow.spring_boot_demo.demo.domain;
  * Created by zl on 2015/8/27.
  */
 public class User {
-    private Integer id;
+
+    private long id;
     private String user_name;
     private String pass_word;
 
-    public Integer getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(long id) {
         this.id = id;
     }
 
